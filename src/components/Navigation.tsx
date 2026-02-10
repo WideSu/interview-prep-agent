@@ -1,9 +1,10 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
-import { FileText, BarChart2, Edit3, MessageSquare } from 'lucide-react';
+import { Link, NavLink } from 'react-router-dom';
+import { LayoutDashboard, FileText, BarChart2, Edit3, MessageSquare } from 'lucide-react';
 import clsx from 'clsx';
 
 const navItems = [
+  { path: '/dashboard', label: 'Dashboard', icon: LayoutDashboard },
   { path: '/input', label: 'Input', icon: FileText },
   { path: '/match', label: 'Tech Match', icon: BarChart2 },
   { path: '/edit', label: 'Resume Edit', icon: Edit3 },
@@ -17,7 +18,9 @@ export const Navigation: React.FC = () => {
         <div className="flex justify-between h-16">
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
-              <span className="text-xl font-bold text-blue-800">ResuMatch</span>
+              <Link to="/dashboard" className="flex items-center">
+                <span className="text-xl font-bold text-blue-800">ResuMatch</span>
+              </Link>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
               {navItems.map((item) => (

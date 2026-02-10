@@ -5,6 +5,7 @@ import { InputPage } from '@/pages/InputPage';
 import { TechMatchPage } from '@/pages/TechMatchPage';
 import { ResumeEditPage } from '@/pages/ResumeEditPage';
 import { InterviewPrepPage } from '@/pages/InterviewPrepPage';
+import { DashboardPage } from '@/pages/DashboardPage';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         <Navigation />
         <main className="max-w-7xl mx-auto py-6 sm:px-6 lg:px-8">
           <Routes>
-            <Route path="/" element={<Navigate to="/input" replace />} />
+            <Route path="/" element={<Navigate to="/dashboard" replace />} />
+            <Route path="/dashboard" element={<DashboardPage />} />
             <Route path="/input" element={<InputPage />} />
             <Route path="/match" element={<TechMatchPage />} />
             <Route path="/edit" element={<ResumeEditPage />} />
