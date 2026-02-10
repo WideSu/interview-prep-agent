@@ -1,0 +1,39 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <path id="curveTop" d="M 50,100 A 50,50 0 0,1 150,100" />
+    <path id="curveBottom" d="M 50,100 A 50,50 0 0,0 150,100" />
+  </defs>
+
+  <!-- Laurel Wreath -->
+  <path d="M 60,110 Q 50,140 100,170 Q 150,140 140,110" fill="none" stroke="#1e40af" stroke-width="2" />
+  <!-- Left Leaves -->
+  <path d="M 60,110 Q 55,120 65,125 Q 60,130 70,135 Q 65,140 75,145 Q 70,150 80,155" fill="none" stroke="#1e40af" stroke-width="3" stroke-linecap="round" />
+  <!-- Right Leaves -->
+  <path d="M 140,110 Q 145,120 135,125 Q 140,130 130,135 Q 135,140 125,145 Q 130,150 120,155" fill="none" stroke="#1e40af" stroke-width="3" stroke-linecap="round" />
+
+  <!-- Paper Icon -->
+  <rect x="80" y="70" width="40" height="50" fill="none" stroke="#1e40af" stroke-width="2" rx="2" />
+  <path d="M 85,80 H 115 M 85,90 H 115 M 85,100 H 105" stroke="#1e40af" stroke-width="2" stroke-linecap="round" />
+  <!-- Folded Corner -->
+  <path d="M 110,70 V 80 H 120" fill="none" stroke="#1e40af" stroke-width="2" />
+
+  <!-- Quill -->
+  <path d="M 100,100 Q 120,80 130,70 Q 125,90 110,110 L 105,115" fill="none" stroke="#1e40af" stroke-width="3" stroke-linecap="round" />
+  
+  <!-- Checkmark -->
+  <circle cx="115" cy="110" r="6" fill="none" stroke="#1e40af" stroke-width="1.5" />
+  <path d="M 112,110 L 114,112 L 118,108" fill="none" stroke="#1e40af" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Dots -->
+  <circle cx="50" cy="100" r="3" fill="#1e40af" />
+  <circle cx="150" cy="100" r="3" fill="#1e40af" />
+
+  <!-- Text -->
+  <text fill="#1e40af" font-family="serif" font-weight="bold" font-size="14" letter-spacing="2">
+    <textPath href="#curveTop" startOffset="50%" text-anchor="middle">RESUME</textPath>
+  </text>
+  
+  <text fill="#1e40af" font-family="serif" font-weight="bold" font-size="14" letter-spacing="2">
+    <textPath href="#curveBottom" startOffset="50%" text-anchor="middle">RATER</textPath>
+  </text>
+</svg>
