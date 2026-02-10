@@ -32,8 +32,19 @@ export const LoginPage: React.FC = () => {
           supabaseClient={supabase}
           appearance={{ theme: ThemeSupa }}
           theme="light"
-          providers={['google']}
+          providers={['google', 'github']}
         />
+        <p className="mt-4 text-center text-xs text-gray-500">
+          By signing in, you agree to our{' '}
+          <a
+            href="https://supabase.com/privacy"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-blue-600 hover:underline"
+          >
+            Privacy Policy
+          </a>
+        </p>
       </div>
     </div>
   );
