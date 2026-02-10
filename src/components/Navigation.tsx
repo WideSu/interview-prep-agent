@@ -41,7 +41,8 @@ export const Navigation: React.FC = () => {
         <div className="flex justify-between h-16">
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
-              <Link to="/dashboard" className="flex items-center">
+              <Link to="/dashboard" className="flex items-center space-x-2">
+                <img src="/logo.svg" alt="ResuMatch Logo" className="h-8 w-8" />
                 <span className="text-xl font-bold text-blue-800">ResuMatch</span>
               </Link>
             </div>
