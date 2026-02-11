@@ -1,7 +1,7 @@
 # ResuMatch
 
 ResuMatch is an intelligent resume analysis and optimization tool designed to bridge the gap between job descriptions and candidate profiles. It features automated keyword extraction, real-time match scoring, a version-controlled resume editor, and personalized interview question generation. Built with React and Supabase, it helps job seekers tailor their applications and prepare effectively for technical interviews.
-
+![Image](https://github.com/user-attachments/assets/eb02a284-398f-4318-a454-0451786ad70f)
 ## Features
 
 - **Smart Analysis**: Matches your resume against job descriptions to identify gaps.
